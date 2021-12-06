@@ -17,5 +17,5 @@ for i in range(days):
     fishies[-1] = birthers
     fishies[6] += birthers
 
-print (fishies.sum())
+print ('The number of fishes after %d days is %d.'%(days, fishies.sum()))
 
